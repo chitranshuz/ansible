@@ -1,0 +1,6 @@
+---
+ - hosts: slaves
+   tasks:
+   - name: rebooting the machine for testing 
+     reboot:
+     ignore_errors: yes       
